@@ -1,0 +1,23 @@
+{
+  "name": "backend_todo_list",
+  "version": "1.0.0",
+  "description": "es el backend de mi app todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreecalderon/backEnd_todo_list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreecalderon/backEnd_todo_list/issues"
+  },
+  "homepage": "https://github.com/andreecalderon/backEnd_todo_list#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
