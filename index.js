@@ -10,9 +10,7 @@ const app = express();
 
 //CORS
 app.use(cors({
-    origin: ['http://127.0.0.1:5500',
-        'https://andreecalderon.github.io'
-    ],
+    origin: '*',
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders:['COontent-Type', 'Authorization']
 }))
